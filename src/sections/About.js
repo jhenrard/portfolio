@@ -32,14 +32,14 @@ const Background = () => (
   </div>
 );
 
-const ProfilePicture = styled(Image)`
-  border-radius: 50%;
-  transition: all 0.25s ease-out;
+// const ProfilePicture = styled(Image)`
+//   border-radius: 50%;
+//   transition: all 0.25s ease-out;
 
-  &:hover {
-    border-radius: 20%;
-  }
-`;
+//   &:hover {
+//     border-radius: 20%;
+//   }
+// `;
 
 const About = () => (
   <Section.Container id="about" Background={Background}>
@@ -79,14 +79,14 @@ const About = () => (
               width={[1, 1, 2 / 6]}
               style={{ maxWidth: '300px', margin: 'auto' }}
             >
-              <Fade right>
+              {/* <Fade right>
                 <ProfilePicture
                   src={profile.image.src}
                   alt={profile.title}
                   mt={[4, 4, 0]}
                   ml={[0, 0, 1]}
                 />
-              </Fade>
+              </Fade> */}
             </Box>
           </Flex>
         );
